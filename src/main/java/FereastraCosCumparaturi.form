@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FereastraCosCumparaturi">
+  <grid id="27dc6" binding="panouPrincipal" layout-manager="GridLayoutManager" row-count="11" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="586" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-14276557"/>
+    </properties>
+    <border type="etched" title="Cos de Cumparaturi " title-justification="2">
+      <font name="Comic Sans MS" size="14" style="3"/>
+      <title-color color="-14744"/>
+    </border>
+    <children>
+      <component id="df966" class="javax.swing.JLabel" binding="labelInformativ">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="14" style="1"/>
+          <foreground color="-14744"/>
+          <text value="Produsele din stoc sunt :"/>
+        </properties>
+      </component>
+      <vspacer id="849e5">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <grid id="1c2c4" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14276557"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="33983" class="javax.swing.JLabel" binding="labelPrimaParte">
+            <constraints/>
+            <properties>
+              <font name="Comic Sans MS" size="14" style="1"/>
+              <foreground color="-14744"/>
+              <text value="In valoare de"/>
+            </properties>
+          </component>
+          <component id="c30e6" class="javax.swing.JLabel" binding="labelSumaProduse">
+            <constraints/>
+            <properties>
+              <font name="Comic Sans MS" size="14" style="1"/>
+              <foreground color="-4432897"/>
+              <text value="..."/>
+            </properties>
+          </component>
+          <component id="ae7dd" class="javax.swing.JLabel" binding="labelADouaParte">
+            <constraints/>
+            <properties>
+              <font name="Comic Sans MS" size="14" style="1"/>
+              <foreground color="-14744"/>
+              <text value="RON"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="fff19" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14276557"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="10957" class="javax.swing.JButton" binding="butonPlaseazaComanda">
+            <constraints/>
+            <properties>
+              <background color="-14744"/>
+              <font name="Comic Sans MS" size="14" style="1"/>
+              <foreground color="-15000805"/>
+              <text value="Plaseaza Comanda"/>
+            </properties>
+          </component>
+          <component id="416e0" class="javax.swing.JButton" binding="butonStergeProdus">
+            <constraints/>
+            <properties>
+              <background color="-14744"/>
+              <font name="Comic Sans MS" size="14" style="1"/>
+              <foreground color="-15000805"/>
+              <text value="Sterge produs din cos"/>
+            </properties>
+          </component>
+          <component id="48601" class="javax.swing.JButton" binding="butonAnulare">
+            <constraints/>
+            <properties>
+              <background color="-14744"/>
+              <font name="Comic Sans MS" size="14" style="1"/>
+              <foreground color="-15000805"/>
+              <text value="Anulare"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <hspacer id="33b93">
+        <constraints>
+          <grid row="0" column="2" row-span="11" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="6ca59">
+        <constraints>
+          <grid row="0" column="0" row-span="11" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="f9d13">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="c2852" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=" "/>
+        </properties>
+      </component>
+      <component id="819a6" class="javax.swing.JList" binding="JListProduseComandate">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14276557"/>
+          <font name="Comic Sans MS" size="14" style="1"/>
+          <foreground color="-14744"/>
+          <selectionBackground color="-14276557"/>
+          <selectionForeground color="-4697089"/>
+        </properties>
+      </component>
+      <component id="70d6f" class="javax.swing.JLabel" binding="labelAvertizare">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="14" style="1"/>
+          <foreground color="-4697089"/>
+          <text value="Alege unul sau mai multe produse pentru a le sterge din cosul de cumparaturi!"/>
+        </properties>
+      </component>
+      <component id="c6d9a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="2347f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FereastraPrincipala">
+  <grid id="27dc6" binding="panouPrincipal" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="10217" height="373"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="1167b" binding="sectiuneLogin" layout-manager="GridLayoutManager" row-count="10" column-count="10" same-size-horizontally="false" same-size-vertically="false" hgap="10" vgap="10">
+        <margin top="5" left="5" bottom="5" right="5"/>
+        <constraints border-constraint="West"/>
+        <properties>
+          <background color="-14276557"/>
+        </properties>
+        <border type="none" title-justification="2">
+          <font name="JetBrains Mono" size="12" style="1"/>
+          <title-color color="-14744"/>
+        </border>
+        <children>
+          <component id="f571d" class="javax.swing.JLabel" binding="labelUsername">
+            <constraints>
+              <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Cascadia Code" size="14" style="1"/>
+              <foreground color="-9737365"/>
+              <labelFor value="baf90"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <vspacer id="fca9b">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="7" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="baf90" class="javax.swing.JTextField" binding="fieldUsername" default-binding="true">
+            <constraints>
+              <grid row="4" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="22"/>
+                <preferred-size width="200" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13749953"/>
+              <caretColor color="-527122"/>
+              <font name="Cascadia Mono" size="14" style="1"/>
+              <foreground color="-4697089"/>
+              <horizontalAlignment value="2"/>
+              <selectedTextColor color="-14744"/>
+              <selectionColor color="-13749953"/>
+            </properties>
+          </component>
+          <component id="d84e5" class="javax.swing.JLabel" binding="labelParola">
+            <constraints>
+              <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Cascadia Code" size="14" style="1"/>
+              <foreground color="-9737365"/>
+              <labelFor value="21fd2"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="21fd2" class="javax.swing.JPasswordField" binding="fieldParola" default-binding="true">
+            <constraints>
+              <grid row="5" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="22"/>
+                <preferred-size width="200" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13749953"/>
+              <caretColor color="-527122"/>
+              <font name="Cascadia Mono" size="14" style="1"/>
+              <foreground color="-4697089"/>
+              <horizontalAlignment value="2"/>
+              <selectedTextColor color="-14744"/>
+              <selectionColor color="-13749953"/>
+            </properties>
+          </component>
+          <component id="c4d19" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="3" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="7a4cf" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="8" column="3" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14276557"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="d2abf" class="javax.swing.JButton" binding="butonAutentificare">
+                <constraints/>
+                <properties>
+                  <autoscrolls value="false"/>
+                  <background color="-14744"/>
+                  <focusPainted value="false"/>
+                  <font name="Comic Sans MS" size="12" style="1"/>
+                  <foreground color="-15000805"/>
+                  <hideActionText value="false"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="Autentificare"/>
+                </properties>
+              </component>
+              <component id="63a9b" class="javax.swing.JSeparator">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="bfb87" class="javax.swing.JButton" binding="butonIesire">
+                <constraints/>
+                <properties>
+                  <background color="-14744"/>
+                  <font name="Comic Sans MS" size="12" style="1"/>
+                  <foreground color="-15000805"/>
+                  <text value="Iesire"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <vspacer id="b4815">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="7" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="ec72c" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="6a59b" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="9ffe2" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="f6454" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="91fc9" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="24" height="0"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="12a4" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="8bf69" class="javax.swing.JLabel" binding="labelAutentificare">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="10" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="b0604" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="70fbe" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="56d9f" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="10" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14276557"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="d79ad" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <font name="Comic Sans MS" size="14" style="1"/>
+                  <foreground color="-7762020"/>
+                  <text value="Nu ai cont? Creaza unul"/>
+                </properties>
+              </component>
+              <component id="adf27" class="javax.swing.JLabel" binding="labelCreareCont">
+                <constraints/>
+                <properties>
+                  <font name="Comic Sans MS" size="14" style="1"/>
+                  <foreground color="-14744"/>
+                  <text value="aici!"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="d250f" binding="sectiuneInformatii" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-13749953"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="3eade" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Comic Sans MS" size="18" style="0"/>
+              <foreground color="-14744"/>
+              <text value="Aplicatie Gestionare Stocuri "/>
+            </properties>
+          </component>
+          <component id="a51ea" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Comic Sans MS" size="12" style="0"/>
+              <foreground color="-14744"/>
+              <text value="Pentru a continua introdu credentialele de administrator sau de utilizator "/>
+            </properties>
+          </component>
+          <vspacer id="a4c6">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="f4b86">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="bdceb" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value=" "/>
+            </properties>
+          </component>
+          <component id="d5324" class="javax.swing.JLabel" binding="labelInformatii">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Comic Sans MS" size="14" style="1"/>
+              <foreground color="-4432897"/>
+              <text value="Utilizator inregistrat cu succes!"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="b68f6" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-14276557"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="9df9c" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="10213" height="17"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="    "/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="3d9ba" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="South"/>
+        <properties>
+          <background color="-14276557"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="1fec2" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="  "/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="a0021" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="East"/>
+        <properties>
+          <background color="-14276557"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="4ba0" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="     "/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
